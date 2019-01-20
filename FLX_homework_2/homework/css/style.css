@@ -1,0 +1,112 @@
+.flex-2-col {
+    display: flex;
+}
+
+.carousel-content h2 { color: gainsboro; letter-spacing: 5px; }
+
+.box-work { padding: 8px; }
+.box-work:nth-child(2n) {
+    background-color: #F2F2F2;
+}
+
+.box-bg:hover { background-color: #87CEFA; }
+.box-bg:hover h2 { color: #fff; font-weight: bold; }
+
+.box-work p { font-style: italic; }
+.box-work p::first-letter { font-size: 30px; }
+
+.tm-nav-item:hover { background-color: #F5F5F5; }
+
+.tm-team-description-container { position: relative; }
+.tm-team-description-container:first-of-type(1) {  padding-top: 150px; }
+
+.tm-section-description:first-of-type { font-style: italic; color: #808080; }
+.tm-section-description::first-letter {
+    padding-left: 25px;
+    font-size: 30px;
+    color: #87CEFA;
+}
+
+.tm-sidebar, .tm-content-box, .blocks { box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+
+.tm-banner-text::first-letter { color: #87CEFA; font-size: 30px; }
+
+.padding-medium::after {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 35px 260px 0 0;
+    border-color: #87CEFA transparent;
+}
+
+.heading li a {
+    text-decoration: none;
+    color: black;
+}
+
+.heading li a:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    padding: 15px 60px;
+    background-color: #fff;
+    border: 1px solid #9FD8FB;
+    color: #9FD8FB;
+    border-radius: 0;
+    transition: 0.3s;
+    float: right;
+}
+
+.submit-btn:hover {
+    background-color: #9FD8FB;
+    border: 1px solid #9FD8FB; 
+    transition: 0.3s;
+}
+
+
+#contact_email { position: relative; }
+#contact_email::after {
+    content: 'TEST';
+    position: absolute;
+    
+    right: 25px;
+    background: red;
+    color: black;
+}
+
+@media print {
+    .tm-sidebar, #about, .heading, .blocks, #ideas, #contact, .img-contact-us {
+        display: none;
+    }
+
+    .tm-content-box { margin-bottom: 0; }
+    .tm-footer { margin: 25px auto; }
+
+    .padding-medium {
+        padding: 0 40px;
+    }
+
+    .tm-banner-inner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .flex-item img {
+        margin-top: 100px;
+        margin-right: 10px;
+        width: 220px;
+    }
+
+    .tm-footer::first-letter {
+        color: #ACD7EA;
+        font-size: 30px;
+    }
+
+    .tm-team-description-container h2 { color: #2145FF; }
+    .padding-medium::after {
+        display: none;
+    }
+}
