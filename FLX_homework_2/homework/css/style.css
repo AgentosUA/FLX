@@ -41,12 +41,24 @@
 }
 
 .heading li a {
+    position: relative;
     text-decoration: none;
     color: black;
 }
 
 .heading li a:hover {
     text-decoration: underline;
+}
+
+.heading li a:visited {
+    color: ;
+}
+
+.text::after {
+    font-size: 12px;
+    color: red;
+    content: ' New';
+    vertical-align: super;
 }
 
 .submit-btn {
