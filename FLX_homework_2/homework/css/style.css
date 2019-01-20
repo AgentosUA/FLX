@@ -17,8 +17,7 @@
 
 .tm-nav-item:hover { background-color: #F5F5F5; }
 
-.tm-team-description-container { position: relative; }
-.tm-team-description-container:first-of-type(1) {  padding-top: 150px; }
+.tm-team-description-container { position: relative; padding-top: 180px; }
 
 .tm-section-description:first-of-type { font-style: italic; color: #808080; }
 .tm-section-description::first-letter {
