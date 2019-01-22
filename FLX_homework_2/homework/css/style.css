@@ -36,14 +36,10 @@
     border-color: #87CEFA transparent;
 }
 
-.heading li a {
-    position: relative;
-    text-decoration: none;
-    color: black;
-}
+.padding-medium ol li a { color: #000; }
+.padding-medium ol li a:hover { color: #87CEFA; text-decoration: double underline; }
+.padding-medium ol li a:visited { text-decoration: underline; }
 
-.heading li a:hover { text-decoration: underline; }
-.heading li a:visited { color: blue; }
 
 .text::after {
     font-size: 12px;
@@ -76,35 +72,20 @@
 }
 
 @media print {
-    .tm-sidebar, #about, .heading, .blocks, #ideas, #contact, .img-contact-us {
-        display: none;
-    }
-
+    .tm-sidebar, #about, .heading, .blocks, #ideas, #contact, .img-contact-us { display: none; }
     .tm-content-box { margin-bottom: 0; }
     .tm-Dooter { margin: 25px auto; }
-
-    .padding-medium {
-        padding: 0 40px;
-    }
-
-    .tm-banner-inner {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .flex-item img {
-        margin-top: 100px;
-        margin-right: 10px;
-        width: 220px;
-    }
+    .tm-banner-inner { padding-top: 40px; padding-bottom: 40px; }
+    .tm-team-description-container h2 { color: #2145FF; }
+    
+    .flex-item img { margin-top: 100px; margin-right: 10px; width: 220px; }
 
     .tm-footer::first-letter {
         color: #ACD7EA;
         font-size: 30px;
     }
 
-    .tm-team-description-container h2 { color: #2145FF; }
-    .padding-medium::after {
-        display: none;
-    }
+    
+    .padding-medium { padding: 0 40px; }
+    .padding-medium::after { display: none; }
 }
