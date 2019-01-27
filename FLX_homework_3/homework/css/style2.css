@@ -103,8 +103,9 @@ main {
       padding: 10px 0 10px 15px;
       width: 215px;
       height: 20px;
-      border: 1px solid #000;
-      color: #000; }
+      border: 1px solid #b2c0c6;
+      color: #b2c0c6;
+      background: #EFEFEF; }
       main .toolbar input::placeholder {
         color: #000; }
     main .toolbar::after {
@@ -121,7 +122,7 @@ main {
     main .post-list article p {
       margin: 0;
       text-align: justify;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 24px;
       color: #000; }
     main .post-list article img {
