@@ -256,7 +256,7 @@ section.section-more button:hover {
     background: rgb(9, 188, 116);
 }
 
-section.section-sub { background: #F3F3F3; font-size: 14px;}
+section.section-sub { background: #F3F3F3; font-size: 14px; line-height: 20px; }
 
 section.section-sub .sub-block {
     margin: 25px auto;
