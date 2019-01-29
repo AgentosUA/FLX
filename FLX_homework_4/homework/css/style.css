@@ -300,6 +300,7 @@ section.section-info .info-block {
 section.section-info .info-block h3 {
     margin: 0 auto 15px auto;
     color: #000;
+    font-size: 16px;
     font-weight: bold;
 }
 
