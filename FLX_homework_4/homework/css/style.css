@@ -154,11 +154,12 @@ main .right-section {
     max-width: 850px;
     text-align: left;
     color: #fff;
+    font-size: 16px;
     z-index: 999;
 }
 
 main .left-section {
-    margin: 15px auto 130px auto;
+    margin: 80px auto 130px auto;
     line-height: 22px;
     font-size: 18px;
 }
@@ -302,7 +303,7 @@ section.section-info .info-block h3 {
     font-weight: bold;
 }
 
-section.section-info .info-block p + b {
+section.section-info .info-block .time {
     margin-top: 8px;
     color: #E8E8E8;
 }
@@ -333,4 +334,24 @@ footer { margin: 0; padding: 0; width: 100%; }
 .footer nav a:hover {
     color: #097774;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+        background-size: 215%;
+    }
+
+    main .left-section {
+        margin: 120px auto 130px auto;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    main article .article-text {
+        margin: 5px 0 0 10px;
+        width: 100%;
+    }
+
+    article.flex-container .article-img { margin: 25px auto; }
+    article.flex-container { flex-direction: column; }
 }
