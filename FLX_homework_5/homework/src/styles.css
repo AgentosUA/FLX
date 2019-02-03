@@ -4,10 +4,16 @@
  */
 
 body {
-  font-family: 'roboto';
-  background: #0b192f;
-  box-sizing: border-box;
+	font-family: roboto;
+	font-weight: 100;
+  	background: #0b192f;
+  	box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6, span {
+	font-weight: 100;
+}
+
 .post-1 {
 	background: #B71757;
 }
@@ -41,7 +47,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -166,6 +171,8 @@ main article .block-text {
 	box-sizing: border-box;
 }
 
+
+
 .block-item:nth-child(2n) .block-image {
 	order: 1;
 }
@@ -239,7 +246,7 @@ footer.flex-container {
 
 @media screen and (max-width: 768px) {
 	.header {
-		height: 100px;
+		height: 120px;
 	}
 
 	.header .flex-container {
@@ -249,7 +256,7 @@ footer.flex-container {
 
 	.header .logo {
 		text-align: center;
-		margin: 0 auto;
+		margin: 50px auto 0 auto;
 		order: 0;
 		flex: 1;
 		width: 100%;
@@ -266,18 +273,19 @@ footer.flex-container {
 		margin: 0 auto;
 		padding: 0;
 		position: absolute;
-		top: 50px;
-		left: 50%;
+		top: 25px;
+		left: 52%;
 		text-align: center;
 	}
 
 	.header .nav-hidden a {
-		font-size: 22px;
+		font-size: 18px;
 		color: #fff;
 		text-decoration: none;
+		text-align: center;
 		margin: 0;
 		padding: 0;
-	}	
+	}
 
 	main.container {
 		display: flex;
@@ -312,7 +320,7 @@ footer.flex-container {
 	
 	.block-item:nth-child(2n) .block-text h2 { text-align: right; }
 	.block-item:nth-child(2n) .block-text p { text-align: right; }
-	.block-item:nth-child(2n) .block-text span.date { width: 50px; left: 25%; bottom: 15px; }
+	.block-item:nth-child(2n) .block-text span.date { width: 50px; left: 25%; top: 150px; }
 	.block-item:last-child div {
 		width: 100%;
 	}
@@ -320,7 +328,7 @@ footer.flex-container {
 
 @media screen and (max-width: 480px) {
 	.header {
-		height: 100px;
+		height: 120px;
 	}
 
 	.header .flex-container {
@@ -330,7 +338,7 @@ footer.flex-container {
 
 	.header .logo {
 		text-align: center;
-		margin: 0 auto;
+		margin: 50px auto 0 auto;
 		order: 0;
 		flex: 1;
 		width: 100%;
@@ -347,18 +355,19 @@ footer.flex-container {
 		margin: 0 auto;
 		padding: 0;
 		position: absolute;
-		top: 50px;
-		left: 50%;
+		top: 25px;
+		left: 52%;
 		text-align: center;
 	}
 
 	.header .nav-hidden a {
-		font-size: 22px;
+		font-size: 18px;
 		color: #fff;
 		text-decoration: none;
+		text-align: center;
 		margin: 0;
 		padding: 0;
-	}	
+	}
 
 	main.container {
 		display: flex;
