@@ -152,7 +152,7 @@ main article .block-item .block-image img {
 }
 main article .block-item:hover { cursor: pointer; }
 main article .block-image:hover img { opacity: 0.3; }
-main article .block-text:hover { color: rgba(255, 255, 255, 0.3); }
+main article .block-text:hover { cursor: pointer; color: rgba(255, 255, 255, 0.3); }
 
 main article .block-item div {
 	width: 50%;
