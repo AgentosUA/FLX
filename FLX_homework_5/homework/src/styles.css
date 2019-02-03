@@ -169,6 +169,7 @@ main article .block-text {
 	padding: 25px;
 	color: #fff;
 	box-sizing: border-box;
+	max-width: 400px;
 }
 
 
@@ -197,11 +198,12 @@ main article .block-text {
 	position: absolute;
 	top: 15px; right: 15px;
 	text-align: center;
-	font-size: 32px;
+	font-size: 35px;
 	color: rgba(255, 255, 255, .3)
 }
 .block-text span.date b {
-	font-size: 26px;
+	font-size: 18px;
+	font-weight: 100;
 }
 
 .block-last {
