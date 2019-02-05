@@ -17,9 +17,9 @@ function getDiscount() {
             let saved = price - result;
             alert(
                 'Price without discount: ' + price +
-                '\nDiscount: ' + discount + '%' +
-                '\nPrice with discount: ' + result +
-                '\nSaved: ' + saved
+                '\nDiscount: ' + discount.toFixed() + '%' +
+                '\nPrice with discount: ' + result.toFixed() +
+                '\nSaved: ' + saved.toFixed()
             );
         }
         
