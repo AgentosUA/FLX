@@ -18,7 +18,7 @@ function getDiscount() {
             alert(
                 'Price without discount: ' + price +
                 '\nDiscount: ' + discount + '%' +
-                '\nPrice with discount: ' + result  +
+                '\nPrice with discount: ' + result +
                 '\nSaved: ' + saved
             );
         }
