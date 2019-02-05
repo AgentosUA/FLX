@@ -16,7 +16,7 @@ function getResult () {
     } else {
         var x = (-1 * b) / 2 * a;
         alert('x = ' + x);
-    }   
+    }
 }
 
 getResult();
