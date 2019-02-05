@@ -5,7 +5,7 @@ function getResult () {
         c = prompt('Enter \'c\' number:', 0),
         D = (b * b) - 4 * a * c;
 
-    if (isNaN(D) || Number(a) == 0) {
+    if (isNaN(D) || Number(a) === 0) {
         alert('Invalid input data');
     } else if (D < 0) {
         alert('no solution');
