@@ -14,6 +14,12 @@ if (askPlay === true) {
         gameRandom = (Math.floor(Math.random() * 5 * twice) + 1);
         // to see real answer:
         // alert(gameRandom); 
+        askNumber = Number(prompt('Enter number from 0 to ' + maxTry +
+            '\nAttempts left: ' + userTry + 
+            '\nTotal prize: ' + userResult +
+            '\nPossible prize on current attempt: ' + prizes[i]));
+        userTry--;
+
         switch (i) {
             case 0:
                 userResult = prizes[0] + userLastResult;
@@ -28,10 +34,6 @@ if (askPlay === true) {
                 break;
             default: 0;
         }
-
-        askNumber = Number(prompt('Enter your lucky number! (0-' + maxTry +')\nAttempts left: ' + userTry + 
-            '\nPossible prize on current attempt: ' + prizes[i]));
-        userTry--;
         if (askNumber === gameRandom) {
             userResult += userLastResult;
             let askContinue = confirm('Congratulation!\nYour prize is: ' + userResult + '$\nPlay again?');
