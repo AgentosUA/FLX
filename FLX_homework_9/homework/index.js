@@ -128,7 +128,7 @@ function showFormattedDate(date) {
 	let year = date.getFullYear();
 	let month = date.toString().substr(4, 3);
 	let day = date.getDate();
-	return "Date: " + day + ' of' + month + ', ' + year;
+	return "Date: " + day + ' of ' + month + ', ' + year;
 }
 showFormattedDate(new Date('2019-01-27T01:10:00'));
 
