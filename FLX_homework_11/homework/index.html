@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-  <div id="root" class="wrapper">
+  <div class="wrapper">
     <h1 class="todo-title">TODO Cat List</h1>
+    <p id="notification" class="subtitle-info">Maximum item per list are</p>
     <div class="add-block">
-        <input type="text" class="list-input" placeholder="Add New Action">
-        <i class="material-icons add-btn" id="button">add_box</i>
+        <input type="text" id="list-input" class="list-input" placeholder="Add New Action">
+        <button id="addButton" class="addButton">
+          <i class="material-icons add-btn">add_box</i>
+        </button>
     </div>
     <hr>
-    <div class="list">
-      
-    </div>
+    <div id="list" class="list"></div>
   </div>
  
   <script src="./src/app.js"></script>

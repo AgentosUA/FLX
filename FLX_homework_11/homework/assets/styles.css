@@ -70,6 +70,13 @@ hr {
     font-size: 22px;
 }
 
+.subtitle-info {
+    margin: 10px auto;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
 .add-block {
     margin: 0 auto;
     padding: 0 15px;
@@ -91,18 +98,38 @@ hr {
     cursor: pointer;
 }
 
+.addButton {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
 .list {
-    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
 .list-item {
+    margin: 5px auto;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
 .checkbox, .delete {
+    display: flex;
     cursor: pointer;
+}
+
+.checkbox {
+    width: 100%;
+}
+
+.checkbox p {
+    margin-top: 5px;
+    margin-left: 5px;    
 }
