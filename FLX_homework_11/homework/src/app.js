@@ -113,53 +113,43 @@ let clickItem = (event) => {
             break;
         case '1_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '2_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
             break;
         case '3_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '4_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '5_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '6_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '7_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '8_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '9_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         case '10_delete':
             id = id.slice(start, end);
-            alert(id);
             element.removeChild(element.childNodes[id - 1]);
             break;
         default:
