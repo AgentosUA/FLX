@@ -1,2 +1,100 @@
-/* Your styles go here */
+/* reset css */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styles */
+
+body {
+    font-family: Arial, Tahoma;
+}
+
+h1 {
+    margin: 15px auto;
+    font-size: 32px;
+}
+
+.main {
+    margin: 120px auto;
+    padding: 0;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+.input {
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 7px auto;
+    width: 280px;
+  }
+
+.description {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+  }
+  
+  .empty { margin: 15px auto; font-size: 22px; }
+  
+  .btn {
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .buttons {
+    margin: 10px auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
